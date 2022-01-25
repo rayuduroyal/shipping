@@ -1,7 +1,11 @@
 @Library('roboshop') _
 
-java(
+// java(
+//     COMPONENT         : 'shipping',
+//     LABEL             : 'WORKSTATION'
+// )
+
+java-immutable(
     COMPONENT         : 'shipping',
     LABEL             : 'WORKSTATION'
 )
-
