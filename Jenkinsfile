@@ -5,10 +5,10 @@
 //     LABEL             : 'WORKSTATION'
 // )
 
-java-immutable(
-    COMPONENT         : 'shipping',
-    LABEL             : 'WORKSTATION'
-)
+// java-immutable(
+//     COMPONENT         : 'shipping',
+//     LABEL             : 'WORKSTATION'
+// )
 
 docker(
     COMPONENT         : 'shipping',
