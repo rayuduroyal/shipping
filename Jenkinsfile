@@ -9,3 +9,8 @@ java-immutable(
     COMPONENT         : 'shipping',
     LABEL             : 'WORKSTATION'
 )
+
+docker(
+    COMPONENT         : 'shipping',
+    LABEL             : 'WORKSTATION'
+)
