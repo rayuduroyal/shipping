@@ -5,7 +5,7 @@ WORKDIR /app
 COPY    src src
 COPY    pom.xml pom.xml
 RUN     mvn clean package
-RUN     /bin/java -jar /home/roboshop/shipping/shipping.jar
+CMD     [ "java", "-Xmx2500m", "-jar", "target/shipping-1.0.jar" ]
 
 
 
